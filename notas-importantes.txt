@@ -1,0 +1,78 @@
+CHAPTER 01-02
+
+- VIEW-PORT: el meta-viewport sirve para establecer el ancho de la página.
+- DIV: usar <DIV> debe ser la última opción, hay mejores etiquetas.
+- P: siempre que tengamos un texto, includo de la 1 línea la mejor opción es <P>
+- ESTILO: mantener un mismo estilo, tratar siempre de cerrar las etiquetas.
+- VOID: las etiquetas que no tienen nada adentro se llaman void.
+
+---SECTIONS---
+
+- SECTION, ARTICLE.
+- ASIDE: contenido al lado de los articulos, publicidad, banners, otros productos recomendados, etc.
+- NAV: navegación principal.
+- HEADER y FOOTER: se pueden utilizar multiples veces, por ejemplo dentro un ARTICLE
+- MAIN: para descartar el contenido principal, diferente de la pagina (UNO solo por pagina).
+- A: ahora puede agrupar elementos internamente.
+- BLOCKQUOTE: para colocar frases de alguien mas.
+- FIGURE - FIGURE-CAPTION:  The image tag is used to embed the image in an HTML document whereas the figure tag is used to semantically organize the content of an image in the HTML document.
+- DETAILS - SUMMARY: sistema de resumen y ver más.
+
+---TEXT-ELEMENTS---
+- SPAN: como DIV pero para texto.
+- STRONG: highlight the important part of the text.
+- I: enfatizar algo y cursiva obviamente.
+
+---OBSOLETO---
+- FONT, CENTER, STRIKE, FRAME.
+
+- WCAG: web content accesibility guidelines: guia/estandares para desarrollar bien diseño responsive.
+- https://www.w3.org/WAI/standards-guidelines/wcag/ 
+- GUIA https://www.w3.org/TR/WCAG21/
+
+The following Success Criteria are new in WCAG 2.1:
+
+1.3.4 Orientation (AA)
+1.3.5 Identify Input Purpose (AA)
+1.3.6 Identify Purpose (AAA)
+1.4.10 Reflow (AA)
+1.4.11 Non-Text Contrast (AA)
+1.4.12 Text Spacing (AA)
+1.4.13 Content on Hover or Focus (AA)
+2.1.4 Character Key Shortcuts (A)
+2.2.6 Timeouts (AAA)
+2.3.3 Animation from Interactions (AAA)
+2.5.1 Pointer Gestures (A)
+2.5.2 Pointer Cancellation (A)
+2.5.3 Label in Name (A)
+2.5.4 Motion Actuation (A)
+2.5.5 Target Size (AAA)
+2.5.6 Concurrent Input Mechanisms (AAA)
+4.1.3 Status Messages (AA)
+
+EJEMPLOS 
+
+---Success Criterion 1.4.4 Resize text---
+Understanding Resize text|
+How to Meet Resize text(Level AA)
+Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
+
+---Success Criterion 2.4.2 Page Titled--- 
+(A)
+Web pages have titles that describe topic or purpose.
+
+Example 1
+This example defines a document's title.
+
+<html xmlns="http://www.w3.org/1999/xhtml">   
+   <head>     
+      <title>The World Wide Web Consortium</title>     
+   </head>   
+   <body>     
+      ...   
+   </body> 
+</html>  
+
+- VIDEO: para video
+
+CHAPTER 03

@@ -15,7 +15,8 @@ CHAPTER 01-02
 - MAIN: para descartar el contenido principal, diferente de la pagina (UNO solo por pagina).
 - A: ahora puede agrupar elementos internamente.
 - BLOCKQUOTE: para colocar frases de alguien mas.
-- FIGURE - FIGURE-CAPTION:  The image tag is used to embed the image in an HTML document whereas the figure tag is used to semantically organize the content of an image in the HTML document.
+- FIGURE - FIGURE-CAPTION:  The image tag is used to embed the image in an HTML 
+ document whereas the figure tag is used to semantically organize the content of an image in the HTML document.
 - DETAILS - SUMMARY: sistema de resumen y ver más.
 
 ---TEXT-ELEMENTS---
@@ -55,7 +56,8 @@ EJEMPLOS
 ---Success Criterion 1.4.4 Resize text---
 Understanding Resize text|
 How to Meet Resize text(Level AA)
-Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
+Except for captions and images of text, text can be resized without assistive technology 
+up to 200 percent without loss of content or functionality.
 
 ---Success Criterion 2.4.2 Page Titled--- 
 (A)
@@ -84,7 +86,8 @@ CHAPTER 03
 - Media queries in a CSS file
 @media screen and (orientation: portrait) {}
 - Combining media queries
-<link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)" href="800wide-portrait-screen.css" />
+<link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)"
+ href="800wide-portrait-screen.css" />
 - Everyday media queries
 @media (min-width: 750px) {
   /* styles */
@@ -94,3 +97,26 @@ CHAPTER 03
 - MEDIA prefers-color-scheme: usado cuando los usuarios definen modo oscuro, y definir tu propio modo oscuro estilos.
 
 CHAPTER 04
+- dimensiones deben ser proporcinadas no fijas. target/context = result.
+- FLEXBOX: la mejor opción para colocar elementos proporciados (mejor que inline-block, table, floats).
+- Vertical and horizontal centered:
+	display: flex;
+	align-items: center; (vertical center)
+	justify-content: center; (horizontal center)
+- inline-flex usado cuando no tiene padre flex.
+- main-axis: representa el eje principal, hacia donde se despliegan los elementos.
+- cross-axis: representa el eje perpendicular al main-axis.
+- justify-content: space-between; // justifica con espacio en el medio
+- justify-content: space-evenly; // justifica con espacio a todos lados (igual a todos lados)
+- si se usa flex: en un hijo de un flex, ya no es necesario definir ancho y alto, para eso se pone
+   flex: 1;
+   flex: 0 0 50px;
+- grow, shrink, basis
+- order: sirve para definir que elemento aparece primero, segundo, etc (en flex).
+- La propiedad flex-wrap de CSS  especifica si los elementos "hijos" son obligados a permanecer en una misma 
+ línea o pueden fluir en varias líneas. Si la cobertura (wrap) está permitida,
+ esta propiedad también te permite controlar la dirección en la cual serán apilados los elementos.
+
+- responsive images.
+
+CHAPTER 05
